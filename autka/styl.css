@@ -1,0 +1,38 @@
+#banner{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+#right,#left{
+    text-align: center;
+    height: 800px;
+    width: 50%;
+    background-color: rgb(252, 214, 168);
+    float: left;
+    margin: auto;
+    font-size: xx-large;
+}
+input{
+    margin: 2%;
+}
+#button{
+    width: 100px;
+    height: 30px;
+}
+#wynik{
+    margin: auto;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+#logo{
+    text-align: center;
+    height: 200px;
+}
+#img{
+    text-align: center;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}

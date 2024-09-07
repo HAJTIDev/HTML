@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,900,700italic,700,600italic,600,400italic);
+
+body{
+    font-family: "Titillium Web", cursive;
+}
+#contener{
+    width: 600px;
+    height: 400px;
+    border: 10px solid black;
+    margin: auto;
+    background-color: rgb(0,135,62);
+    text-align: center;
+}
+#banner{
+    width: 100%;
+    height: 11%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+h2{
+    background-color: rgb(253, 97, 97);
+    border: 5px solid red;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kalkulator</title>
+</head>
+
+<body>
+    <h1>kalkulator kredytowy</h1>
+    <div id="container">
+        <div id="info">
+            <p>Cel:</p>
+            <p>Kwota kredytu(zł):</p>
+            <p>liczba rat:</p>
+            <p>Oprocentowanie:</p>
+        </div>
+            <div id="but">
+                <p><select id="cel">
+                    <option value="Wakacje">Wakacje</option>
+                    <option value="Zakup samochodu">Zakup samochodu</option>
+                    <option value="Remont mieszkania">Remont mieszkania</option>
+                    <option value="Inny">Inny</option>
+                </select></p>
+                <p><input type="number" id="kwota"></p>
+                <p><input type="number" id="rata"></p>
+                <p><form>
+                    <input type="radio" name="rad" value="7.6" id="1">7,6%
+                    <input type="radio" name="rad" value="12.5" id="2">12,5%
+                    <input type="radio" name="rad" value="15" id="3">15%
+                </form></p>
+            </div>
+            <div id="button">
+                <input type="button" value="Oblicz" onclick="obl()" id="obl">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

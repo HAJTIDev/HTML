@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styl15.css">
+    <title>Portal ogłoszeniowy</title>
+</head>
+<body>
+    <div id="contener">
+        <div id="banner">
+            <h1>Portal Ogłoszeniowy</h1>
+        </div>
+        <div class="sekcje">
+            <img src="logo-male.png">
+        </div>
+        <div class="sekcje">
+            <h3>Adres</h3>
+            <p>ul. Morska 45</p> Gdynia
+        </div>
+        <div class="sekcje">
+            <h3>Telefon</h3>
+            <p>01601601</p>
+        </div>
+        <div class="sekcje">
+            <h3>e-mail</h3>
+            <p>ogloszenia@poczta.pl</p>
+        </div>
+        <div class="panel1">
+            <h2>Ceny ogłoszeń</h2>
+            <table>
+                <tr>
+                    <td>Liczba ogłoszeń</td>
+                    <td>Cena ogłoszeń</td>
+                    <td colspan="2">Bonus</td>
+                </tr>
+                <tr>
+                    <td>1-50</td>
+                    <td>2 PLN</td>
+                    <td colspan="2" rowspan="2">Subskrypcja newslettera to upust 0,20 PLN na ogłoszenie</td>
+                </tr>
+                <tr>
+                    <td>51 i więcej</td>
+                    <td>1 PLN</td>
+                </tr>
+            </table>
+        </div>
+        <div id="panel2">
+            <h2>Witamy na stronie naszego portalu!</h2>
+            <img src="logoDuze.png">
+        </div>
+        <div class="panel1">
+            <h2>Ile kosztuje ogłoszenie?</h2>
+            <p>Podaj liczbę ogłoszeń:</p>
+            <p><input type="number" id="a" min="1"></p>
+            <p>Policz upust na newsletter<input type="checkbox" id="b"></p>
+            <input type="button" id="button" value="oblicz" onclick="obl()">
+            <div id="wynik"></div>
+            </div>
+            <div id="footer">
+                Portal  ogłoszeniowy  opracował:Daria Robak
+            </div>
+    </div>
+
+    <script>
+        function obl(){
+            let a=Number(document.getElementById("a").value);
+            let b=document.getElementById("b").checked;
+            if(b==true){
+                if(a>50){
+                    document.getElementById("wynik").innerHTML="Koszt ogłoszeń"+(a*1-(0.2*a))+"PLN";
+                }
+                else{
+                    document.getElementById("wynik").innerHTML="Koszt ogłoszeń"+(a*2-(0.2*a))+"PLN";
+                }
+            }
+                else{
+                    if(a>50){
+                        document.getElementById("wynik").innerHTML="Koszt ogłoszeń"+(a*1)+"PLN";
+                    }
+                    else{
+                        document.getElementById("wynik").innerHTML="Koszt ogłoszeń"+(a*2)+"PLN";
+                    }
+                }
+
+        }
+    </script>
+</body>
+</html>

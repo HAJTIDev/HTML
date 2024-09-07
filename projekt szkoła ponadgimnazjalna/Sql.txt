@@ -1,0 +1,13 @@
+1.
+INSERT INTO wychowawca(id, imie, nazwisko, id_klasy) VALUES (
+    5,
+    Maciej,
+    Stasiak,
+    5
+    )
+2.
+SELECT uczen.imie,uczen.nazwisko FROM uczen JOIN wychowawca on uczen.id_klasy=wychowawca.id_klasy where wychowawca.nazwisko='Michalska'
+3.
+CREATE USER 'K_Pietkiewicz' IDENTIFIED BY 'kp+_123';
+4.
+GRANT ALL PRIVILEGES ON uczen TO 'K_Pietkiewicz';

@@ -1,0 +1,4 @@
+zapytanie 1: SELECT imie,telefon,szczepienie,opis FROM `zwierzeta`;
+zapytanie 2: SELECT id,imie,wlasciciel FROM `zwierzeta` where rodzaj=1;
+zapytanie 3: select imie, uslugi.nazwa from zwierzeta join uslugi on uslugi.id=zwierzeta.usluga_id;
+zapytanie 4: select avg(cena) from uslugi;

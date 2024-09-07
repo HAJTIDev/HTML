@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+#container{
+    width: 75%;
+    height: 50%;
+    margin: auto;
+}
+#panel1{
+    background-color: lightgreen;
+    height: 10%;
+    width: 100%;
+    float: top;
+}
+#panel2{
+    background-color: rgb(0, 110, 255);
+    height: 10%;
+    width: 100%;
+    float: top;
+}
+#panel3{
+    background-color: lightskyblue;
+    height: 30%;
+    width: 100%;
+    float: top;
+}
+#table1{
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+#table1 img{
+    width: 200px;
+    height: 200px;
+}

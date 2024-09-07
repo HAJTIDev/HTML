@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="content">
+        <div id="wynik"></div>
+        <table>
+          <tr>
+            <td><input type="button" value="1" onclick="view('1')" /></td>
+            <td><input type="button" value="2" onclick="view('2')" /></td>
+            <td><input type="button" value="3" onclick="view('3')" /></td>
+            <td>
+              <input
+                type="button"
+                value="+"
+                onclick="op('+')"
+                class="operator"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" onclick="view('4')" /></td>
+            <td><input type="button" value="5" onclick="view('5')" /></td>
+            <td><input type="button" value="6" onclick="view('6')" /></td>
+            <td>
+              <input
+                type="button"
+                value="-"
+                onclick="op('-')"
+                class="operator"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="7" onclick="view('7')" /></td>
+            <td><input type="button" value="8" onclick="view('8')" /></td>
+            <td><input type="button" value="9" onclick="view('9')" /></td>
+            <td rowspan="2">
+              <input type="button" value="=" id="equal" onclick="eq()" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" value="0" onclick="view('0')" /></td>
+            <td><input type="button" value="." onclick="view('.')" /></td>
+            <td>
+              <input
+                type="button"
+                value="/"
+                onclick="op('/')"
+                class="operator"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="|x|"
+                onclick="op('|x|')"
+                class="operator"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="%"
+                onclick="op('%')"
+                class="operator"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="xⁿ"
+                onclick="op('pot')"
+                class="operator"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="*"
+                onclick="op('*')"
+                class="operator"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="+/-"
+                onclick="op('+/-')"
+                class="operator"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="Mod"
+                onclick="op('mod')"
+                class="operator"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="√"
+                onclick="op('pier')"
+                class="operator"
+              />
+            </td>
+            <td><input type="button" value="C" onclick="cl()" id="C" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS part 3</title>
+</head>
+<body>
+
+<form>
+    <input type="text" id="a"><br>
+    <input type="text" id="b"><br>
+
+    <input type="button" value="przelicz" onclick="obl()">
+</form>
+<div id="wynik"></div>
+
+<script>
+    function obl(){
+        var a= Number(document.getElementById("a").value);
+        var b= Number(document.getElementById("b").value);
+
+        for(var i=a; i<b; i++){
+
+            if(i%2==0){
+                document.getElementById("wynik").innerHTML+=" " +i;
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="rgb">
+            <div id="info">
+                R:<input type="text" id="r" max="255"><br>
+                G:<input type="text" id="g"><br>
+                B:<input type="text" id="b"><br>
+                <input type="button" value="convert" onclick="RGB()" class="but">
+            </div>
+            <div id="wynik">
+                wynik:
+                <div id="war"></div>
+            </div>
+        </div>
+        <hr>
+        <div id="Hex">
+            <div id="info">
+            HEX:<input type="text" id="hex"><br>
+            <input type="button" value="convert" onclick="Hex()" class="but">
+        </div>
+            <div id="wynik">
+                wynik:
+                <div id="war2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>

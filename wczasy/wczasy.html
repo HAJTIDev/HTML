@@ -1,0 +1,112 @@
+
+<html>
+<head>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" type="text/css" href="wczasy.css">
+    <title> Wczasy </title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+    <div id="contener">
+        <div id="naglowek">
+            Wczasy nad Bałtykiem
+        </div>
+        <div id="lewy">
+           <h1>Formularz Zgłoszeniowy:</h1>
+           <table id="tabelka">
+               <tr>
+                   <td>liczba dzieci (0-18lat) </td>
+                   <td> <form action="*">
+                    <select name="select" id="a">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    </select>
+                    </form></td>
+               </tr>
+               <tr>
+                   <td>liczba dorosłych </td>
+                   <td>   <form action="*">
+                    <select name="select"  id="b">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    </select>
+                    </form></td>
+               </tr>
+               <tr>
+                <td>liczba noclegów </td>
+                <td>   <form action="*">
+                 <select name="select" id="c">
+                 <option>0</option>
+                 <option>1</option>
+                 <option>2</option>
+                 <option>3</option>
+                 <option>4</option>
+                 </select>
+                 </form></td>
+            </tr>
+            <tr>
+                <td colspan="2"><form action="*">
+                    <input type="button" value="koszt wczasów" id="przycisk" onclick="obl()"/>
+                    </form> </td>
+            </tr>
+                </table>
+                <table id="tabelka">
+                    <tr>
+                        <td id="dziecek"></td>
+                    </tr>
+                    <tr>
+                        <td id="dorosli"></td>
+                    </tr>
+                    <tr>
+                        <td id="noclegi"></td>
+                    </tr>
+                    <tr>
+                        <td id="cena"></td>
+                    </tr>
+                </table>
+        </div>
+        <div id="prawy">
+            <div id="srodek">
+                <table id="tabela">
+                    <tr>
+                        <td colspan="3"> Galeria zdjęć</td>
+                    </tr>
+
+                    <tr>
+                    <td><img src="obrazek1.png" id="zdjecia"></td>
+                    <td><img src="obrazek2.jpg" id="zdjecia"></td>
+                    <td><img src="obrazek3.jpg" id="zdjecia"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="obrazek4.jpg" id="zdjecia"></td>
+                        <td><img src="obrazek5.jpg" id="zdjecia"></td>
+                        <td><img src="obrazek6.jpg" id="zdjecia"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footer">
+         <img src="logo.png" id="logo">   
+        </div>
+    </div>
+    <script>
+        function obl(){
+           let a= Number(document.getElementById("a").value);
+           let b= Number(document.getElementById("b").value);
+           let c=Number(document.getElementById("c").value);
+           document.getElementById("dziecek").innerHTML="liczba dzieci: "+a;
+           document.getElementById("dorosli").innerHTML="liczba doroslych: "+b;
+           document.getElementById("noclegi").innerHTML="liczba noclegów: "+c;
+           document.getElementById("cena").innerHTML="cena: "+((a*50+b*75)*c);
+        }
+    </script>
+</body>
+</html>

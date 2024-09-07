@@ -1,0 +1,34 @@
+#banner{
+    background-color: rgb(105, 88, 89);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    height: 80px;
+}
+#left{
+    background-color: rgb(145, 127, 112);
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+#middle{
+    background-color: rgb(184, 168, 169);
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+#right{
+    float: left;
+    background-color: rgb(145, 127, 112);
+    width: 20%;
+    height: 600px;
+}
+h2{
+    color: white;
+}
+img{
+   float: right; 
+}
+table,td{
+    border: 1px solid black;
+}

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="remont.css">
+    <title>Wyremontuj mieszkanie</title>
+</head>
+<body>
+ <div id="contener">
+
+ <div id="banner">
+  <img src="logo.png">
+ </div>
+
+ <div class="sekcje">
+    <section> <a href="index.html"style="color:white">O nas</a></section>
+   </div>
+  
+   <div class="sekcje">
+    <section><a href="kontakt.html"style="color:white">kontakt</a></section>
+   </div>
+  
+   <div class="sekcje">
+    <section><a href="kalkulator.html" style="color:white">kalkulator</a></section>
+   </div> 
+  
+   <div class="sekcje">
+    <section><a href="http://www.jakremontowac.pl/"style="color:white">polecane strony</a></section>
+   </div>
+
+ <div id="central">
+     <h1>Malowanie pokoju: 8 zł za m2</h1>
+     <p>Wymiary pokoju w metrach:
+     <input type="number" id="a" min="1">
+     <input type="number" id="b" min="1">
+     </p>
+     <input type="button" id="button" value="OBLICZ KOSZT" onclick="add()">
+     <div id="wynik"></div>
+     <div id="wynik2"></div>
+ </div>
+ <div id="footer">
+Autor strony: Daria Robak
+ </div>
+ </div>
+
+ <script>
+     function add(){
+           let a=Number(document.getElementById("a").value);
+           let b=Number(document.getElementById("b").value);
+           document.getElementById("wynik").innerHTML="Powierzchnia  całkowita  ścian: "+(2*a*2.7+2*b*2.7)+"m2";
+           document.getElementById("wynik2").innerHTML="Koszt malowania: "+((2*a*2.7+2*b*2.7)*8)+"zł";
+       }
+ </script>
+</body>
+</html>

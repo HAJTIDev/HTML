@@ -1,0 +1,39 @@
+#contener{
+    font-family: Tahoma;
+    margin: auto;
+    width: 1300px;
+    height: 585px;
+    background-color: aquamarine;
+}
+#banner{
+    text-align: center;
+    background-color:  #af8c4b;
+    width: 100%;
+    height: 60px;
+}
+#lewy{
+    text-align: right;
+    float: left;
+    background-color:  #af8c4b;
+    height: 500px;
+    width: 30%;
+}
+#prawy{
+    float: left;
+    height: 500px;
+    width: 70%;
+    background-color:  #ffd87e;
+    overflow: visible;
+}
+footer{
+    text-align: center;
+    clear: both;
+    height:25px;
+    background-color:  #af8c4b;
+}
+table,td{
+    border: 1px solid black;
+}
+tr{
+    width: 405px;
+}

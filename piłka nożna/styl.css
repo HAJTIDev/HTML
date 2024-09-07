@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: crimson   ;
+}
+#banner{
+    color: white;
+    text-align: center;
+    height: 370px;
+}
+.info{
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.info:hover{
+    border-color: white;
+}
+#glowny{
+    background-color: whitesmoke;
+    height: 50px;
+}
+#lewy{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 230px;
+    float: left;
+}
+#prawy{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+    float: left;
+}
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}

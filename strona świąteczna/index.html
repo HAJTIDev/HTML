@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <title>Święta</title>
+</head>
+<body>
+    <div id="contener">
+        <div id="banner"><p><h1>Stwórz własny list dla świętego Mikołaja</h1></p></div>
+
+            <div id="left"><h2>opcje wyglądu kartki</h2>
+
+                <p>Podaj kolor tła</p>
+                <input type="button" value="white" style="background-color: white" onclick="chColor(this)">
+                <input type="button" value="lightcoral" style="background-color: lightcoral" onclick="chColor(this)">
+                <input type="button" value="lightgreen" style="background-color: lightgreen" onclick="chColor(this)">
+                <button style="background-color:lightskyblue" value="lightskyblue" onclick="chColor(this)">lightskyblue</button>
+                <input type="button" value="antiquewhite" style="background-color: antiquewhite" onclick="chColor(this)">
+                <br/>
+
+                <p>kolor czcionki</p>
+                <select onChange="chFont(this)">
+                    <option>Black</option>
+                    <option>green</option>
+                    <option>Blue</option>
+                    <option>Violet</option>
+                </select><br/>
+                
+                <p>Podaj rozmiar czcionki w&nbsp;procentach, np. 200%</p>
+                <input type="text" value="100%" onchange="chSize(this)"><br/>
+
+                Czy rysunek ma mieć ramkę?<br>
+                <p><input type="checkbox" id="ramka" onclick="chFrame()">Rysuj ramkę</p>
+
+                <p>wpisz tekest do listu<br><textarea id="text" cols="30" rows="10"></textarea>
+                    <input type="button" value="wstaw" onclick="inp()"></p>
+
+            </div>
+        <div id="right"><h1>podgląd kartki:
+        </h1>
+        <div id="edytor">Przykładowy tekst</div>
+        <a href="bebe.html"> wyślij do Mikołaja</a>
+        </div>
+        <footer><h1>Zwrotów i reklamacji nie przyjmujemy</h1><a href="menu.html"><img src="back.png"></a></footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2796"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="2 224.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2798"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="305.77597"
+     inkscape:cy="561.9304"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2793">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6569">
+      <stop
+         style="stop-color:#db0000;stop-opacity:1;"
+         offset="0"
+         id="stop6565" />
+      <stop
+         style="stop-color:#fff10b;stop-opacity:1;"
+         offset="1"
+         id="stop6567" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6553"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#de8787;stop-opacity:1;"
+         offset="0"
+         id="stop6551" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6569"
+       id="radialGradient6573"
+       cx="95.445023"
+       cy="85.659172"
+       fx="95.445023"
+       fy="85.659172"
+       r="9.0293074"
+       gradientTransform="matrix(1,0,0,3.5996235,0,-222.6816)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path3332"
+       style="fill:url(#radialGradient6573);fill-opacity:1;stroke-width:1.3"
+       d="m 103.96774,81.967742 c 0,5.67228 -1.63847,17.038928 -2.64798,21.686588 -2.199235,10.12499 -0.43333,14.50695 -5.33589,14.50695 -3.942456,0 -2.505747,-5.85933 -4.881238,-12.8637 -1.93447,-5.703963 -3.81231,-14.527888 -3.812309,-22.620161 0,-6.621406 1.491777,-17.750129 2.835834,-22.895797 2.315674,-8.865469 3.815577,13.315153 8.341584,13.315153 7.152969,0 5.499999,-9.158458 5.499999,8.870967 z"
+       sodipodi:nodetypes="ssssssss"
+       inkscape:transform-center-x="0.70967742"
+       inkscape:transform-center-y="-50.032258"
+       inkscape:tile-cx="96.154694"
+       inkscape:tile-cy="135.69143"
+       inkscape:tile-w="18.058615"
+       inkscape:tile-h="65.004214"
+       inkscape:tile-x0="86.415709"
+       inkscape:tile-y0="53.157063" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(30,96.154694,135.69143)"
+       id="use4159"
+       inkscape:transform-center-x="-97.415491"
+       inkscape:transform-center-y="55.54044" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(60,96.154694,135.69143)"
+       id="use4161"
+       inkscape:transform-center-x="-114.67235"
+       inkscape:transform-center-y="72.885279" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(90,96.154694,135.69143)"
+       id="use4163"
+       inkscape:transform-center-x="-120.74602"
+       inkscape:transform-center-y="99.080065" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(120,96.154694,135.69143)"
+       id="use4165"
+       inkscape:transform-center-x="-114.96306"
+       inkscape:transform-center-y="126.49147" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(150,96.154694,135.69143)"
+       id="use4167"
+       inkscape:transform-center-x="-97.618225"
+       inkscape:transform-center-y="143.74833" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(180,96.154694,135.69143)"
+       id="use4169"
+       inkscape:transform-center-x="-71.42344"
+       inkscape:transform-center-y="149.822" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(-150,96.154694,135.69143)"
+       id="use4171"
+       inkscape:transform-center-x="-44.012038"
+       inkscape:transform-center-y="144.03904" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(-120,96.154694,135.69143)"
+       id="use4173"
+       inkscape:transform-center-x="-26.755175"
+       inkscape:transform-center-y="126.6942" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(-90,96.154694,135.69143)"
+       id="use4175"
+       inkscape:transform-center-x="-20.681507"
+       inkscape:transform-center-y="100.49942" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(-60,96.154694,135.69143)"
+       id="use4177"
+       inkscape:transform-center-x="-26.464465"
+       inkscape:transform-center-y="73.088013" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path3332"
+       xlink:href="#path3332"
+       transform="rotate(-30,96.154694,135.69143)"
+       id="use4179"
+       inkscape:transform-center-x="-43.809304"
+       inkscape:transform-center-y="55.83115" />
+    <ellipse
+       style="fill:#fff10b;fill-opacity:1;stroke-width:1.3"
+       id="path6627"
+       cx="96.516129"
+       cy="135.19354"
+       rx="11"
+       ry="11.354838" />
+  </g>
+</svg>

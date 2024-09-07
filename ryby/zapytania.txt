@@ -1,0 +1,3 @@
+SELECT id,nazwa,wystepowanie FROM `ryby` WHERE styl_zycia=2;
+SELECT akwen,wojewodztwo FROM `lowisko` WHERE rodzaj=2 or rodzaj=3;
+SELECT r.nazwa FROM `ryby` r inner join okres_ochronny o on r.id=o.Ryby_id where o.wymiar_ochronny=0;

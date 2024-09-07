@@ -1,0 +1,46 @@
+#baner
+{
+    background-color: #45517D;
+    color: white;
+    font-size: 120%;
+    text-align: right;
+    height: 60px;
+}
+#lewy
+{
+    background-color: #61B2EC;
+    width: 40%;
+    height: 500px;
+    float: left; /*nie weim czy to moze byc*/
+}
+#prawy
+{
+    background-color: #8EC9FC;
+    width: 60%;
+    height: 500px;
+    float: right; /*nie weim czy to moze byc*/
+}
+#stopka
+{
+    background-color: #45517D;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+a:link
+{
+    /* nie działa, nie wiem dlaczego */
+    color: orange;
+}
+a:visited
+{
+    color: green;
+}
+table
+{
+    width: 100%;
+}
+ul{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

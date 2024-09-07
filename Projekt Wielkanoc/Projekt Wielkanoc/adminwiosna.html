@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <title>AdminWiosna</title>
+</head>
+<body>
+    <div id="contener" style="text-align: center;">
+        <div class="linker">
+            <a href="Projekt.html">Powrót</a>
+        </div>
+        <div class="linker">
+            <a href="https://www.mediaexpert.pl/?gclid=Cj0KCQjwxtSSBhDYARIsAEn0thR9mDLdolCnEdEiC5UtkxOtlHHz4w-Enwu-I1xIsdtFe59fIvzEIGgaAlGlEALw_wcB">Dodatkowy Sklep</a>
+        </div>
+        <input type="text" placeholder="nazwa" id="name" required><br>
+        <input type="password" placeholder="hasło" id="pass" required><br>
+        <button type="button" onclick="Login()">Login</button>
+        <button type="button" onclick="Rejestr()">Rejestr</button>
+
+
+    <script>   
+        function Login(){
+            name = document.getElementById("name").value;
+            pass = document.getElementById("pass").value;
+             if(name == localStorage.getItem("Name") && pass == localStorage.getItem("Pass")){
+            window.location = "panelwielkanoc.html"
+            }
+        } 
+        function Rejestr(){
+            name = document.getElementById("name").value;
+            pass = document.getElementById("pass").value;
+            localStorage.setItem("Name", name);
+            localStorage.setItem("Pass", pass);
+        }
+        </script>
+
+    </div>
+</body>
+</html>

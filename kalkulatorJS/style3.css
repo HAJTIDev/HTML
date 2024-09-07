@@ -1,0 +1,50 @@
+#komunikat[hidden]
+{
+    display: none;
+}
+#komunikat,#tresc,#przycisk{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#plansza{
+    position: relative;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#plansza:not([ruch])::before{
+    padding-top: 40%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    content: "Koniec gry";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+td{
+    border: 1px solid black;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+td:not([pole]):hover{
+    background-color: #0f0;
+}
+td[pole]:hover{
+    background-color: #f00;
+}
+#plansza[ruch=x] td:not([pole]):hover::before,td[pole=x]::before{
+    content: "X";
+}
+#plansza[ruch=o] td:not([pole]):hover::before,td[pole=o]::before{
+    content: "o";
+}

@@ -1,0 +1,87 @@
+<html lang="pl">
+<head>
+    <title>Style w JavaScript</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styl6.css">
+</head>
+
+<script>
+    function chColor(elem) {
+        // let a = document.getElementById("i").value;
+        // console.log(document.getElementById("i"));
+        // console.log(elem.value);
+        document.getElementById("prawy").style.backgroundColor = elem.value;
+        // document.writeln();
+    }
+
+    function chFont(elem) {
+        // console.log("Id: " + elem.id);
+        // console.log("value: " + elem.value);
+        document.getElementById("prawy").style.color = elem.value;
+    }
+
+    function chSize(elem) {
+        console.log("value: " + elem.value);
+        document.getElementById("prawy").style.fontSize = elem.value;
+    }
+    
+    function chFrame(){
+        console.log("value: " + document.getElementById("ramka").checked);
+        console.log(document.getElementById("img"));
+        if (document.getElementById("ramka").checked) document.getElementById("img").style.border = "1px solid white";
+        else                                          document.getElementById("img").style.border = "0px";
+    }
+</script>
+
+<body>
+    <div id="contener">
+        <div id="lewy">
+            <h1>Konfigurator stylu</h1>
+            <p>Podaj kolor tła</p>
+            <input type="button" value="Indigo" style="background-color: indigo" onclick="chColor(this)">
+            <input type="button" value="SteelBlue" style="background-color: steelblue" onclick="chColor(this)">
+            <input type="button" value="Olive" style="background-color: olive" onclick="chColor(this)">
+            <button style="background-color: red;" value="Red" onclick="chColor(this)">red</button>
+            <br/>
+
+            <p>kolor czcionki</p>
+            <select onChange="chFont(this)">
+                <option>White</option>
+                <option>Tan</option>
+                <option>Bisque</option>
+                <option>Plum</option>
+            </select><br/>
+
+            <p>Podaj rozmiar czcionki w&nbsp;procentach, np. 200%</p>
+            <input type="text" value="100%" onchange="chSize(this)"><br/>
+
+            Czy rysunek ma mieć ramkę?<br>
+            <input type="checkbox" checked id="ramka" onclick="chFrame()">Rysuj ramkę
+
+            <p>Jaki jest typ punktora listy?</p>
+            <div><input type="radio" checked id="dysk">dysk</div>
+            <div><input type="radio" id="kwadrat">kwadrat</div>
+            <div><input type="radio" id="okrag">okrag</div>
+        </div>
+
+        <div id="prawy">
+            <p><img src="gibraltar.jpg" width="300" id="img"></p>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <footer>
+            Autor: csacsa
+        </footer>
+    </div>
+</body>
+</html>

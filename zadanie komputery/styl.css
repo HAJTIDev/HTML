@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+}
+#left{
+    float: left;
+    background-color: palegreen;
+    width: 30%;
+    height: 500px;
+    padding-top: 100px;
+}
+#right{
+    float: left;
+    background-color: honeydew;
+    width: 70%;
+    height: 500px;
+    padding-top:100px ;
+}
+footer{
+    clear: both;
+    background-color: palegreen;
+    padding: 3px;
+}
+table, td{
+    border: 1px solid darkgreen;
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+    width: 95%;
+}
+td, th {
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    padding: 20px 1px;
+}
+
+td:nth-child(3) {
+    /* color: red; */
+}
+
+button{
+ background-color: darkgreen;
+ color: white;
+ padding: 5px;
+}
+button:hover{
+    background-color: honeydew;
+    color: darkgreen;
+}
+
+// microtec@wp.pl

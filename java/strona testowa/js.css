@@ -1,0 +1,50 @@
+#contener{
+    height: 550px;
+    width: 650px;
+    margin: auto;
+}
+#top{
+    width: 100%;
+    height: 15%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+#left{
+    float: left;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(241, 191, 128);
+    text-align: center;
+}
+#right{
+    float: left;
+    width: 50%;
+    height: 80%;
+    background-color:rgb(184, 136, 78);
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: rgb(163, 160, 160);
+    clear: both;
+}
+#x{
+    margin: 10%;
+    margin-left: 5%;
+}
+#y{
+    margin: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+table, tr, td {
+    font-size: larger;
+    margin: auto;
+    border: 1px solid black;
+}
+td{
+    width: 100px;
+    height: 50px;
+}

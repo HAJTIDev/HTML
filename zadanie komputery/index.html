@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type= "text/css" href="styl.css">
+    <title>Zamówienia hurtowe</title>
+</head>
+<body>
+    <div id="banner"><h1>Sieci komputerowe</h1></div>
+    <div id="left">
+        <h2>Aktualizacja i zamówienia materiałów</h2>
+        <p>Do wewnętrznego użytku firmy</p>
+        <img src="obraz.png" alt="sieć komputerowa">
+    </div>
+    <div id="right">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Jednostka</th>
+                    <th>Dostępna  ilość</th>
+                    <th>Aktualizacja</th>
+                    <th>Zamówienie</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Skrętka U/UTP drut</td>
+                    <td>metr</td>
+                    <td id="a" class="value">0</td>
+                    <td><button onclick="akt1()">Aktualizuj</td>
+                    <td><button onclick="ord1()">Zamów</td>
+                </tr>
+                <tr>
+                    <td>Skrętka U/UTP linka</td>
+                    <td>metr</td>
+                    <td id="b" class="value">2</td>
+                    <td><button onclick="akt2()">Aktualizuj</td>
+                    <td><button onclick="ord2()">Zamów</td>
+                </tr>
+                <tr>
+                    <td>Wtyki 8P8C</td>
+                    <td>sztuki</td>
+                    <td id="c" class="value">10</td>
+                    <td><button onclick="akt3()">Aktualizuj</td>
+                    <td><button onclick="ord3()">Zamów</td>
+                </tr>
+                <tr>
+                    <td>Moduły Keystone</td>
+                    <td>sztuki</td>
+                    <td id="d" class="value">30</td>
+                    <td><button onclick="akt4()">Aktualizuj</td>
+                    <td><button onclick="ord4()">Zamów</td>
+                </tr>
+                </tbody>
+        </table>
+        <input type="text" class="value" value="1">
+        <output class="value">5</output>
+    </div>
+    <footer>
+        <a href="http://sieci.pl/">Nasza strona internetowa</a>
+        <p>strone przygotował.......</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

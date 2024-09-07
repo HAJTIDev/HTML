@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div id="container">
+        <div class="linker">Panel Administracyjny</div>
+        <div class="linker"><a href="login.html">Wyloguj</a></div>
+        <h1>Tu jeszcze nic nie ma</h1>
+        <button onclick="Reset()">Reset highscoru</button>
+    </div>
+
+    <script>
+        function Reset(){
+            localStorage.setItem('highscore', 0)
+        }
+    </script>
+</body>
+</html>

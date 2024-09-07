@@ -1,0 +1,21 @@
+input[type=submit]{
+    background-color: #797dbd;
+    border:  none;
+    border-radius: 30px;
+    width: 20%;
+    transition: 0.5s;
+}
+input[type=submit]:hover{
+    background-color: #8f93c7;
+    color: rgb(197, 191, 191);
+}
+input,select{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+body{
+    font-size: 20px;
+}
+#form{
+    margin-top: 30px;
+}

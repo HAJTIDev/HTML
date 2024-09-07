@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="fav">
+            <h2>Wybierz kolor, który lubisz: </h2>
+            <input type="radio" name="fav" value="czerwony">
+            <label for="fav">czerwony</label><br />
+            <input type="radio" name="fav" value="zielony">
+            <label for="fav">zielony</label><br />
+            <input type="radio" name="fav" value="żółty">
+            <label for="fav">żółty</label><br />
+            <input type="radio" name="fav" value="niebieski">
+            <label for="fav">niebieski</label><br />
+        </div>
+
+        <div id="bad">
+            <h2>Wybierz kolor, którego nie lubisz:</h2>
+            <input type="radio" name="bad" value="białego">
+            <label for="bad">biały</label><br />
+            <input type="radio" name="bad" value="czarnego">
+            <label for="bad">czarny</label><br />
+            <input type="radio" name="bad" value="szarego">
+            <label for="bad">szary</label><br />
+        </div>
+
+        <div id="check">
+            <input type="checkbox" name="other" id="other">
+            <label for="other">Uwielbiam jeszcze inne kolory</label>
+        </div>
+
+        <div id="but">
+            <button id="send">Prześlij informacje</button>
+            <button id="clear">Wyczyść formularz</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

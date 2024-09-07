@@ -1,0 +1,4 @@
+zapytanie 1: SELECT id,marka,model FROM samochody;
+zapytanie 2: SELECT Samochody_id,Klient FROM zamowienia;
+zapytanie 3: SELECT * FROM samochody WHERE marka='Fiat';
+zapytanie 3 opcja druga: SELECT id,marka,model,rocznik,kolor,stan FROM samochody WHERE marka='Fiat';

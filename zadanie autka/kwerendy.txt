@@ -1,0 +1,5 @@
+1. Select marka,rocznik from samochody where kolor="niebieski";
+2. Select count(*),marka from samochody where (marka="toyota" or marka="opel") and stan="bardzo dobry";
+3. Update samochody set stan="dobry" where rocznik<2004;
+4. create user 'jan'@'localhost' identified by 'JanKowalski1@'
+5. grant Select,insert,Update on samochody to 'jan';

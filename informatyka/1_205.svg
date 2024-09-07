@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1031"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="zad 1 diament.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1033"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="170.32258"
+     inkscape:cy="561.9304"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1028">
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.31276927"
+       y="-0.15638466"
+       width="1.6255385"
+       height="1.3127693"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5396">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5374" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5376" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5378" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5380" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5382" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5386">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5384" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5388" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5390" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5392" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5394" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.30060603"
+       y="-0.15030303"
+       width="1.6012121"
+       height="1.3006061"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5420">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5398" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5400" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5402" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5404" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5406" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5410">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5408" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5412" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5414" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5416" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5418" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.43681991"
+       y="-0.46425658"
+       width="1.8736398"
+       height="1.9285132"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5444">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5422" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5424" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5426" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5428" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5430" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5434">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5432" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5436" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5438" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5440" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5442" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.40379914"
+       y="-0.20189959"
+       width="1.8075983"
+       height="1.4037992"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5468">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5446" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5448" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5450" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5452" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5454" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5458">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5456" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5460" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5462" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5464" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5466" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.43681991"
+       y="-0.46425658"
+       width="1.8736398"
+       height="1.9285132"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5492">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5470" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5472" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5474" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5476" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5478" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5482">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5480" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5484" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5486" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5488" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5490" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.37933758"
+       y="-0.43388753"
+       width="1.7586752"
+       height="1.8677751"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5516">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5494" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5496" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5498" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5500" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5502" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5506">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5504" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5508" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5510" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5512" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5514" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.48812339"
+       y="-0.50447447"
+       width="1.9762468"
+       height="2.0089489"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5540">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5518" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5520" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5522" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5524" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5526" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5530">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5528" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5532" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5534" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5536" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5538" />
+    </filter>
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.83868402"
+       y="-0.85549715"
+       width="2.677368"
+       height="2.7109943"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5564">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur5542" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite5544" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur5546" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite5548" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite5550" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting5554">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight5552" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite5556" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite5558" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite5560" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend5562" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#800000;stroke-width:0.264583;filter:url(#filter5396)"
+       id="path1247"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="22.709679"
+       sodipodi:cy="17.741936"
+       sodipodi:r1="61.388123"
+       sodipodi:r2="30.694065"
+       sodipodi:arg1="1.5765766"
+       sodipodi:arg2="3.1473729"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 22.354841,79.129033 -7.9838737,17.564517 23.064517,-43.645161 53.403231,17.919354 Z"
+       transform="matrix(1.9182741,-0.05543916,0.02888849,0.99958264,63.262785,113.0406)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d40000;stroke-width:0.264583;filter:url(#filter5420)"
+       id="path1249"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="62.80645"
+       sodipodi:cy="94.387093"
+       sodipodi:r1="63.879837"
+       sodipodi:r2="31.939922"
+       sodipodi:arg1="1.5874615"
+       sodipodi:arg2="3.1582578"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 61.741931,158.25806 30.870963,93.854834 63.870969,30.516126 94.741937,94.919351 Z"
+       transform="matrix(1.3992694,-0.03170318,0.04464191,0.96059911,15.06453,40.83914)"
+       inkscape:transform-center-x="-5.8719285e-06" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffaaaa;stroke-width:0.264583;filter:url(#filter5444)"
+       id="path1411-2"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="19.161289"
+       sodipodi:cy="26.258064"
+       sodipodi:r1="22.222082"
+       sodipodi:r2="4.2221956"
+       sodipodi:arg1="0.89854914"
+       sodipodi:arg2="1.4221479"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 32.999998,43.645159 19.786603,30.433698 11.022977,46.936285 15.857741,28.887419 -2.8157312,29.54919 15.232427,24.711785 5.3225806,8.8709691 18.535975,22.08243 27.299601,5.5798435 22.464837,23.62871 41.13831,22.966939 23.090151,27.804343 Z"
+       transform="matrix(0.25728873,0,0,0.23637905,72.070016,103.4383)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff5555;stroke-width:0.264583;fill-opacity:1;filter:url(#filter5468)"
+       id="path1357"
+       inkscape:flatsided="false"
+       sodipodi:sides="2"
+       sodipodi:cx="25.903225"
+       sodipodi:cy="44.354839"
+       sodipodi:r1="47.655514"
+       sodipodi:r2="23.827759"
+       sodipodi:arg1="1.5037329"
+       sodipodi:arg2="3.0745292"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 29.096772,91.903228 2.1290288,45.951614 22.709678,-3.1935492 49.677421,42.758065 Z"
+       transform="matrix(0.99925236,0.04946104,-0.03866155,1.2783778,83.347095,71.355264)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffaaaa;stroke-width:0.264583;filter:url(#filter5492)"
+       id="path1411"
+       inkscape:flatsided="false"
+       sodipodi:sides="6"
+       sodipodi:cx="19.161289"
+       sodipodi:cy="26.258064"
+       sodipodi:r1="22.222082"
+       sodipodi:r2="4.2221956"
+       sodipodi:arg1="0.89854914"
+       sodipodi:arg2="1.4221479"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 32.999998,43.645159 19.786603,30.433698 11.022977,46.936285 15.857741,28.887419 -2.8157312,29.54919 15.232427,24.711785 5.3225806,8.8709691 18.535975,22.08243 27.299601,5.5798435 22.464837,23.62871 41.13831,22.966939 23.090151,27.804343 Z"
+       transform="matrix(0.25728873,0,0,0.23637905,115.71517,85.51895)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffa8a8;stroke-width:0.264583;fill-opacity:1;filter:url(#filter5516)"
+       id="path1586"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="-2.1290321"
+       sodipodi:cy="21.645163"
+       sodipodi:r1="29.226301"
+       sodipodi:r2="14.613152"
+       sodipodi:arg1="-0.5070985"
+       sodipodi:arg2="0.54009905"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 23.419352,7.4516161 -2.6112523,50.867485 -27.195196,6.6163863 Z"
+       inkscape:transform-center-x="0.41819164"
+       inkscape:transform-center-y="2.1282684"
+       transform="matrix(0.9358469,-0.01447196,0.0440637,0.3073627,109.05889,128.15301)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffa8a8;fill-opacity:1;stroke-width:0.264583;filter:url(#filter5540)"
+       id="path2319"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="36.548386"
+       sodipodi:cy="58.903229"
+       sodipodi:r1="23.173441"
+       sodipodi:r2="11.58672"
+       sodipodi:arg1="1.3703978"
+       sodipodi:arg2="2.4175953"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 41.161288,81.612907 14.574776,51.543281 53.909093,43.553499 Z"
+       inkscape:transform-center-x="4.2954629"
+       inkscape:transform-center-y="3.9163683"
+       transform="matrix(-0.41080462,-0.43493998,0.40911431,-0.16706763,67.175806,161.64253)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffaaaa;fill-opacity:1;stroke-width:0.264583;filter:url(#filter5564)"
+       id="path2343"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="15.612903"
+       sodipodi:cy="80.548386"
+       sodipodi:r1="13.558368"
+       sodipodi:r2="6.7791839"
+       sodipodi:arg1="-0.74837805"
+       sodipodi:arg2="0.2988195"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 25.548386,71.322579 18.634943,93.76567 2.6553783,76.556908 Z"
+       inkscape:transform-center-x="-2.9238278"
+       inkscape:transform-center-y="2.8229919"
+       transform="matrix(-0.9279146,0.61698889,-0.36545619,-0.58842001,181.88227,173.43153)" />
+  </g>
+</svg>

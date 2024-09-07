@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Auta auteczka autunia</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header  id="banner">
+        <img src="logo.png" id="logo" >
+    </header>
+    <main>
+        <div id="left">
+            <form method="post" action="akcja.php">
+                Koszt benzyny: <input type="text" name="a" required><br>
+                Średnie zużycie na 100km:<input type="number" name="b" required><br>
+                Liczba km:<input type="number" name="c" required><br>
+                Stały klient:<input type="checkbox" name='check'><br>
+                <input type="submit" value="Policz" id="button" name="submit">
+            </form>
+            <div id="wynik"></div>
+        </div>
+        <div id="right">
+           <p> <img src="dostawczak.png" id="img"></p>
+           <p> <img src="osobówka.png"id="img"></p>
+           <p> <img src="wyścigowe.png"id="img"></p>
+        </div>
+    </main>
+</body>
+</html>

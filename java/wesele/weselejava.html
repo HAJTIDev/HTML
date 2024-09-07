@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS part 3</title>
+</head>
+<body>
+
+<form>
+    ilość gości <input type="text" id="a"><br>
+    poprawiny <input type="checkbox" id="b"><br>
+
+    <input type="button" value="przelicz" onclick="obl()">
+</form>
+<div id="wynik"></div>
+
+<script>
+    function obl(){
+        let a= Number(document.getElementById("a").value);
+        let b= document.getElementById("b").checked;
+
+        if(b==true){
+            document.getElementById("wynik").innerHTML="cena to: "+(a*100*1,3);
+        }
+        else{
+            document.getElementById("wynik").innerHTML="cena to: "+(a*100);
+        }
+    }
+</script>
+</body>
+</html>

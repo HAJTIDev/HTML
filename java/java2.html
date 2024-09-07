@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS part 2</title>
+</head>
+<body>
+
+<form>
+    Podaj a: <input type="text" id="a"><br>
+    Podaj b: <input type="text" id="b"><br>
+    Podaj c: <input type="text" id="c"><br>
+    <input type="button" value="dodaj" onclick="add()">
+    <input type="button" value="spr" onclick="tr()">
+</form>
+
+<div id="wynik"></div>
+<div id="wynik2"></div>
+
+
+
+    <script>
+       function add(){
+           let a= Number(document.getElementById("a").value);
+           let b= Number(document.getElementById("b").value);
+           document.getElementById("wynik").innerHTML="suma liczb to: "+(a+b);
+       }
+
+       function tr(){
+        let a= Number(document.getElementById("a").value);
+        let b= Number(document.getElementById("b").value);
+        let c= Number(document.getElementById("c").value);
+
+        if(a+b>c && a+c>b && b+c>a && a>0 && b>0 && c>0 ){
+        document.getElementById("wynik2").innerHTML="trójkąt da sie zrobić";
+        }
+        else{
+            document.getElementById("wynik2").innerHTML="trójkąt nie da sie zrobić";
+        }
+       }
+    </script>
+    </body>
+</html>

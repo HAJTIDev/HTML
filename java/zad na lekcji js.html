@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie JS</title>
+</head>
+<body style="text-align: center; background-color: rgb(0, 162, 255); ">
+    <h1>Zad1</h1>
+    <from>
+        a <input type="number" id="a"><br>
+        b <input type="number" id="b"><br>
+        c <input type="number" id="c"><br>
+        <input type="button" onclick="zad1()" value="oblicz"><br>
+        
+    </from>   
+    <div id="odp1">zad1<br></div>
+    <br>
+    <br>
+    <h1>zad2</h1>
+    <h3>To ja, przemożna Pytia <br>– zadaj mi w myślach pytanie,<br> a ja odpowiem czy to o czym<br> pomyślałeś się spełn</h3>
+    <form>
+        <input type="button" onclick="zad2()" value="Sprawdź">
+    </form>
+    <div id="odp2"></div>
+    <br>
+    <br>
+    <h1>zad3</h1><br>
+    <form>
+        <input type="text" id="tekst"><br>
+        <input type="text" id="tekst2"><br>
+        <input type="button" onclick="zad3()" value="zamiana"><br>
+    </form>
+    <div id="odp3"></div>
+    <br>
+    <br>
+    <h1>zad4</h1>
+    <form>
+        a <input type="number" id="d"><br>
+        b <input type="number" id="e"><br>
+        c <input type="number" id="f"><br>
+        <input type="button" value="sortuj" onclick="zad4()">
+    </form>
+    <div id="odp4"></div>
+    <br>
+    <br>
+    <h1>zad5</h1>
+    <form>
+        <input type="text" id="kot"><br>
+        <input type="button" onclick="zad5()" value="Sprawdź">
+    </form>
+    <div id="odp5"></div>
+    <br><br><br><br><br><br><br><br><br>
+    <script>
+    function zad1(){
+            document.getElementById("odp1").innerHTML = "zad1 <br>"
+            p=0;
+            console.log("aaaaaaaa")
+            a=Number(document.getElementById("a").value);
+            b=Number(document.getElementById("b").value);
+            c=Number(document.getElementById("c").value);
+            if(a>0,b>0,c>0,a+b>c&&a+c>b&&b+c>a){
+                p=(a+b+c)/2
+                document.getElementById("odp1").innerHTML += Math.sqrt(p*(p-a)*(p-b)*(p-c));
+                if((a*a)+(b*b)==(c*c)|| (a*a)+(c*c)==(b*b)||(b*b)+(c*c)==(a*a)){
+                    document.getElementById("odp1").innerHTML += "<br> prostokątny"
+                }
+                if(a==b||c==a||c==b){
+                    document.getElementById("odp1").innerHTML += "<br> równoboczny "
+                if(a==b&&b==c){
+                    document.getElementById("odp1").innerHTML += "<br> równoramienny "
+                }
+                }else if(a!=b&&b!=c){
+                    document.getElementById("odp1").innerHTML += "<br> różnoboczny "
+                }
+            }else{
+                document.getElementById("odp1").innerHTML = "Z podanych boków nie sposób utworzyć trójkąta!";
+            }
+        }
+    function zad2(){
+        a=Math.floor(Math.random()*100+1)
+        document.getElementById("odp2").innerHTML =" Prawdopodobieństwo, że tak będzie wynosi: "
+        document.getElementById("odp2").innerHTML+= a
+        document.getElementById("odp2").innerHTML+="%"
+        if(a<=33){
+            document.getElementById("odp2").style.color="red"
+        }
+        if(a>33&&a<=66){
+            document.getElementById("odp2").style.color="blue"
+        }
+        if(a>66&&a<=100){
+            document.getElementById("odp2").style.color="green"
+        }
+        }
+    function zad3(){
+        document.getElementById("odp3").innerHTML ="  "
+        str=document.getElementById("tekst").value
+        str2=document.getElementById("tekst2").value
+        c=str.length
+      
+        document.getElementById("odp3").innerHTML +=str2[0]
+       for(i=1;i<c;i+=1){
+        document.getElementById("odp3").innerHTML += str[i]
+       }
+       c=str2.length
+       document.getElementById("odp3").innerHTML +="     ";    
+       document.getElementById("odp3").innerHTML +=str[0]
+       for(i=1;i<c;i+=1){
+        document.getElementById("odp3").innerHTML +=str2[i]
+       }
+       b=str.length
+       if(c==b){
+        n=0
+        str=str.toLowerCase();
+        str2=str2.toLowerCase();
+            j=0
+            for(i=c-1;i>-1;i-=1){
+                if(str[i]==str2[j]) n+=1
+                j+=1;
+            }
+            if(c==n){ document.getElementById("odp3").innerHTML +="<br> palindrom"}elsedocument.getElementById("odp3").innerHTML += "<br> nie jest palindromem"
+       }else document.getElementById("odp3").innerHTML += "<br> nie jest palindromem"
+    }
+    function zad4(){
+        a=Number(document.getElementById("d").value);
+        b=Number(document.getElementById("e").value);
+        c=Number(document.getElementById("f").value);
+        if(a<b&&a<c){
+            mini=a
+        }else if(b<a&&b<c){
+            mini=b
+        }else{
+            mini=c
+        }
+        if(a>b&&a>c){
+            maks=a
+        }else if(b>a&&b>c){
+            maks=b
+        }else{
+            maks=c
+        }
+        if(a!=mini&&a!=maks){
+            mid=a
+        }else 
+        if(b!=mini&&b!=maks){
+            mid=b
+        }else{
+            mid=c
+        }
+        document.getElementById("odp4").innerHTML = "najmniejsza liczba to: " + mini + "<br> największa jest: "+ maks+"<br> od najmniejszejdo największej:"+" "+ maks +" "+ mid +" "+ mini;
+    }
+    function zad5(){
+        a=document.getElementById("kot").value;
+        c=a.length;
+        console.log(a[c-1])
+        if(a[c-1]=='t'&&a[c-2]=='o'&&a[c-3]=='k'){
+            if(c>6){
+                document.getElementById("odp5").innerHTML = "właściwy wyraz";
+            }else document.getElementById("odp5").innerHTML = "wyraz jest zakrudki";
+    }else document.getElementById("odp5").innerHTML = 'wyraz nie kończy się ba "kot" :[';
+    }
+    </script>
+</body>
+</html>

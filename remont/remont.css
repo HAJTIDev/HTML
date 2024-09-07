@@ -1,0 +1,46 @@
+#contener{
+  margin: auto;
+  width: 1000px;
+  height: 610px;
+}
+
+#banner{
+  padding: 20px;
+  text-align: center;
+  width: 96%;
+  height: 15%;
+  background-color: #fcd5a3;
+
+}
+
+.sekcje{
+  color: white;
+  font-size: 150%;
+  width:25%;
+  height: 5%;
+  background-color: #be6d18;
+  text-align: center;
+  float: left;
+}
+
+#central{
+  height: 400px;
+  width: 100%;
+}
+
+#footer{
+  clear: both;
+  height: 10%;
+  width: 100%;
+  text-align: right;
+  background-color: #be6d18;
+  color: white;
+  font-size: 150%;
+}
+#button{
+  background-color: brown;
+  border-color: brown 2px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}

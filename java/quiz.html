@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #wynik {
+        color: red;
+    }
+    div > div {
+        color: blue;
+    }
+    footer {
+        text-align: center;
+        color: yellow;
+    }
+
+</style>
+
+<script>
+    function spr() {
+        var score = 0;
+
+        let a = document.getElementById('dobre1').checked;
+        let b = document.getElementById("dobre2").checked;
+        let c = document.getElementById('dobre3').checked;
+        let d = document.getElementById("dobre4").checked;
+
+        if (a)  score++;
+        else    document.getElementById("pyt1").innerHTML = "pyt 1. dobra odpowiedz to A";
+
+        if (b == true) {
+            score++;
+        }
+        else{
+            document.getElementById("pyt2").innerHTML=(" pyt 2. dobra odpowiedz to B");
+        }
+
+        if(c==true){
+            score++;
+        }
+        else{
+            document.getElementById("pyt3").innerHTML=(" pyt 3. dobra odpowiedz to C");
+        }
+        
+        if(d==true) {
+            score++;
+        }
+        else{
+            document.getElementById("pyt4").innerHTML=(" pyt 4. dobra odpowiedz to A");
+        }
+
+        document.getElementById("wynik").innerHTML = ("wynik to: "+score);
+    }
+</script>
+
+<body>
+    <div id="miejsce">
+        <h3>Pyt 1</h3>
+        adad<br>
+        <input type="checkbox" name="pyt1" id="dobre1">A<br>
+        <input type="checkbox" name="pyt1">B <br>
+        <input type="checkbox" name="pyt1">C <br>
+        <h3>Pyt 2</h3>
+        adad<br>
+        <input type="radio" name="pyt2s">A <br>
+        <input type="radio" name="pyt2" id="dobre2">B<br>
+        <input type="radio" name="pyt2">C <br>
+        <h3>Pyt 3</h3>
+        adad<br>
+        <input type="checkbox" name="pyt3">A <br>
+        <input type="checkbox" name="pyt3">B <br>
+        <input type="checkbox" name="pyt3" id="dobre3">C<br>
+        <h3>Pyt 4</h3>
+        adad<br>
+        <input type="radio" name="pyt4" id="dobre4">A<br>
+        <input type="radio" name="pyt4">B <br>
+        <input type="radio" name="pyt4">C <br>
+        <input type="button" value="wyniki" onclick="spr()">
+    </div>
+
+    <div id="wynik"></div>
+    <div>
+        <div id="pyt1"></div>
+        <div id="pyt2"></div>
+        <div id="pyt3"></div>
+        <div id="pyt4"></div>
+    </div>
+
+    <footer>Poprawne odpowiedzi: A B C A</footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-image: url("trawka.jpg");
+    background-size: cover;
+}
+#contener{
+    margin:auto;
+    width: 1000px;
+    height: 900px;
+    border: 10px black solid;
+}
+#logo{
+    background-image: url("marmur.jpg");
+height: 15%;
+border: 10px rgb(107, 107, 107) solid;
+text-align: center;
+}
+.linker{
+    float: left;
+    height: 10%;
+    width: 48%;
+    background-color: rgb(250, 250, 176);
+    border: 10px yellow solid;
+    text-align: center;
+}
+#main{
+    padding-top: 2%;
+    background-color: #663894;
+    float: left;
+    height: 54%;
+    width: 98%;
+    border: 10px #361c50 solid;
+}
+table,tr,td{
+    text-align: center;
+    border: 1px black solid;
+}
+table{
+    text-align: center;
+    margin-top: 10%;
+    margin: auto;
+}
+
+#shoping{
+    clear: both;
+    color: black;
+    text-align: center;
+    height: 10%;
+    background-color: rgb(255, 212, 155) ;
+    border: 10px burlywood solid;
+}
+button{
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    height: 20px;
+    width: 120px;
+}

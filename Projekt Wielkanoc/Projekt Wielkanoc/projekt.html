@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styl.css">
+    <title>Wielkanoc</title>
+    <link rel="icon" href="jajo.png">
+</head>
+<body>
+    <a href="index.html">Powrót</a>
+    <div id="contener">
+        <div id="logo">
+            <h1><img src="napis.png" width="400px"></h1>
+        </div>
+        <div class="linker">
+           <a href="https://www.mediaexpert.pl/?gclid=Cj0KCQjwxtSSBhDYARIsAEn0thR9mDLdolCnEdEiC5UtkxOtlHHz4w-Enwu-I1xIsdtFe59fIvzEIGgaAlGlEALw_wcB"> Kontakt</a>
+        </div>
+        <div class="linker">
+            <a href="adminwiosna.html">Panel Administracyjny</a>
+        </div>
+        <div id="main">
+            <table>
+                <tr>
+                    <td><img src="jajko.png"></td>
+                    <td><img src="koszyczek.png"></td>
+                    <td><img src="bazie.png"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="war1"></td>
+                    <td><input type="number" min="0" id="war2"></td>
+                    <td><input type="number" min="0" id="war3"></td>
+                </tr>
+                <tr>
+                    <td><img src="tulipan.png"></td>
+                    <td><img src="kruliczek.png"></td>
+                    <td><img src="baranek.png"></td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="war4"></td>
+                    <td><input type="number" min="0" id="war5"></td>
+                    <td><input type="number" min="0" id="war6"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="shoping">
+            <button onclick="Oblicz()">Oblicz cene</button>
+            <div id="wartosc">0</div>
+        </div>
+    </div>
+    <audio id="bajojajo" href="bajojajo.mp3"></audio>
+
+    <script>
+        function Oblicz(){
+            let cen1 = localStorage.getItem("cen1");
+            let cen2 = localStorage.getItem("cen2");
+            let cen3 = localStorage.getItem("cen3");
+            let cen4 = localStorage.getItem("cen4");
+            let cen5 = localStorage.getItem("cen5");
+            let cen6 = localStorage.getItem("cen6");
+            let a = Number(document.getElementById("war1").value);
+            let b = Number(document.getElementById("war2").value);
+            let c = Number(document.getElementById("war3").value);
+            let d = Number(document.getElementById("war4").value);
+            let e = Number(document.getElementById("war5").value);
+            let f = Number(document.getElementById("war6").value);
+            document.getElementById("wartosc").innerHTML = (a*cen1 + b*cen2 + c*cen3 + d*cen4 + e*cen5 + f*cen6)+"zł";
+        }
+        function bajo(){
+            var audio = document.getElementById("bajojajo");
+            audio.play();
+        }
+    </script>
+</body>
+</html>

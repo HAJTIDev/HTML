@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zrób własne jajko</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="banner">
+            <h1>Stwórz własne jajko</h1>
+        </div>
+        <div id="option">
+            <input type="button" value="lightblue" onclick="changecol(this)">
+            <input type="button" value="red" onclick="changecol(this)">
+            <input type="button" value="yellow" onclick="changecol(this)">
+            <input type="button" value="green" onclick="changecol(this)">
+            <br>
+            <input type="button" value="circle" onclick="deco(this)">
+            <input type="button" value="line" onclick="deco(this)">
+        </div>
+        <div id="prev">
+            <h1>Podgląd</h1><br><br><br>
+            <div id="egg">
+                <div class="deco" id="dec1">
+                </div>
+                <div class="deco" id="dec2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

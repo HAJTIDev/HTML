@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS part 3 </title>
+</head>
+<body>
+<form>
+
+    <table>
+        <tr>
+<td><input type="text" id="a"></td>
+
+<td><select name="select" id="z">
+    <option>+</option>
+    <option>-</option>
+    <option>*</option>
+    <option>/</option>
+    </select></td>
+
+<td><input type="text" id="b"></td>
+
+<td>=</td>
+
+<td id="wynik"></td>
+
+</tr>
+
+<tr>
+    <td colspan="5"><input type="button" value="oblicz" onclick="obl()"></td>
+</tr>
+
+</table>
+</form>
+
+    <script>
+       function obl(){
+           let a= Number(document.getElementById("a").value);
+           let b= Number(document.getElementById("b").value);
+           let z=document.getElementById("z").value;
+           
+           if(z=="+"){
+            document.getElementById("wynik").innerHTML=a+b;
+           }
+           if(z=="-"){
+           document.getElementById("wynik").innerHTML=a-b;
+           }
+           if(z=="/"){
+               if(b!=0){
+           document.getElementById("wynik").innerHTML=a/b;
+               }
+           }
+           if(z=="*"){
+           document.getElementById("wynik").innerHTML=a*b;
+           }
+       }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+body,
+button {
+  font-family: comic sans ms;
+}
+#bad,
+#fav {
+  float: left;
+  margin: 20px;
+}
+#container {
+  margin: auto;
+  width: 400px;
+  height: 700px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+button {
+  float: left;
+  margin: 10px;
+}
+#check,
+#result,
+#but {
+  clear: both;
+  margin: 20px;
+}

@@ -1,0 +1,72 @@
+body{
+    background-color: #339933;
+    font-family: Courier New;
+}
+
+#contener{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+#baner{
+    background-color: #336633;
+    color: #D9D919;
+    font-size: 120%;
+    text-align: center;
+    height: 5%;
+    font-weight: bold;
+}
+#lewy{
+    
+    text-align: center;
+    float: left;
+    background-color: silver;
+    width: 40%;
+    height: 90%;
+    font-size: 15px;
+}
+#naglowek{
+    background-color: #003300;
+    color: white;
+}
+#zdjecia{
+    height: 150px;
+    width: 180px;
+}
+#prawy{
+    float: right;
+    background-color: #CCFFCC;
+    height: 90%;
+    width: 60%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#foto{
+    height: 70px;
+    width: 80px;
+}
+#stopka{
+    background-color: #006600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.auto-style1 {
+	margin-left: 12px;
+	margin-right: 14px;
+}
+.margines {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#tabela td{
+    width: 100px;
+    border: 1px solid blue;
+    text-align: center;
+ }
+ #table{
+     margin-top: 20px;
+     font-size: 12px;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: justify;
+ }

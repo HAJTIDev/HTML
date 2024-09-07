@@ -1,0 +1,49 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+    height: 850px;
+    width: 1080px;
+    margin: auto;
+    background-color: aquamarine;
+}
+#gora{
+    height: 20%;
+    border: 10px solid rgb(199, 177, 151);
+    text-align: center;
+    background-color: bisque;
+}
+#paryz{
+    height: 60%;
+    border: 10px solid red;
+    background-color:rgb(232, 232, 209);
+    width: 340px;
+    float: left;
+}
+#rzym{
+    height: 60%;
+    border: 10px solid rgb(50, 205, 68);
+    background-color: rgb(232, 232, 209);
+    width: 340px;
+    float: left;
+}
+#Ateny{
+    height: 60%;
+    border: 10px solid rgb(42, 24, 246);
+    background-color: rgb(232, 232, 209);
+    width: 340px;
+    float: left;
+}
+table,tr,td{
+    font-size: x-large;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(161, 143, 122);
+}
+#table{
+    text-align: center;
+    height: 20%;
+    background-color: rgb(253, 217, 174);
+    border: 10px solid yellow;
+}

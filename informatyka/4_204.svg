@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="drzewo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="396.97231"
+     inkscape:cy="561.9304"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Leaves"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Leaves on the ground in Fall, or living foliage"
+       style="color-interpolation-filters:sRGB;"
+       id="filter679"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         baseFrequency="0.09"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result6"
+         id="feTurbulence663" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 4.9 -2.9 "
+         result="result5"
+         in="result6"
+         id="feColorMatrix665" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         id="feComposite667" />
+      <feMorphology
+         result="result3"
+         radius="6"
+         operator="dilate"
+         id="feMorphology669" />
+      <feTurbulence
+         baseFrequency="0.2"
+         numOctaves="1"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence671" />
+      <feDisplacementMap
+         result="result4"
+         scale="15"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result3"
+         in2="result91"
+         id="feDisplacementMap673" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="0.5"
+         k3="1"
+         id="feComposite675" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="1 0 0 0 2 0 0 0 -1 "
+         targetX="0"
+         targetY="0"
+         divisor="1.5"
+         edgeMode="duplicate"
+         in="result2"
+         id="feConvolveMatrix677" />
+    </filter>
+    <filter
+       inkscape:label="Leaves"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Leaves on the ground in Fall, or living foliage"
+       style="color-interpolation-filters:sRGB;"
+       id="filter751"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         baseFrequency="0.09"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result6"
+         id="feTurbulence735" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 4.9 -2.9 "
+         result="result5"
+         in="result6"
+         id="feColorMatrix737" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         id="feComposite739" />
+      <feMorphology
+         result="result3"
+         radius="6"
+         operator="dilate"
+         id="feMorphology741" />
+      <feTurbulence
+         baseFrequency="0.2"
+         numOctaves="1"
+         type="fractalNoise"
+         result="result91"
+         id="feTurbulence743" />
+      <feDisplacementMap
+         result="result4"
+         scale="15"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result3"
+         in2="result91"
+         id="feDisplacementMap745" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="0.5"
+         k3="1"
+         id="feComposite747" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="1 0 0 0 2 0 0 0 -1 "
+         targetX="0"
+         targetY="0"
+         divisor="1.5"
+         edgeMode="duplicate"
+         in="result2"
+         id="feConvolveMatrix749" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#008000;stroke-width:0.264583;filter:url(#filter679)"
+       d="M 100.77419,45.41935 C 100.41935,44.94624 100.26662,44.19891 99.709674,44 c -2.61353,-0.9334 -10.503032,-0.35484 -13.48387,-0.35484 -4.51326,0 -7.522268,0.11721 -12.064516,0.70968 -1.062069,0.13853 -2.150954,0.10952 -3.193547,0.35484 -3.044277,0.7163 -3.28609,1.67583 -6.387097,2.83871 -1.78113,0.66792 -3.688358,0.54852 -5.322581,1.77419 -0.535273,0.40145 -0.915812,0.97876 -1.419354,1.41935 -4.770729,4.17439 -4.612905,6.94784 -4.612905,12.7742 0,2.62384 -0.569854,8.91944 0.354841,11 0.240189,0.54042 0.760243,0.91223 1.064514,1.41935 0.360897,0.6015 0.221311,1.87342 0.709679,2.48387 0.266409,0.33302 0.76296,0.40813 1.064516,0.70968 0.301554,0.30156 0.421505,0.75015 0.709676,1.06452 5.098688,5.5622 10.453031,10.69939 17.741937,13.12903 0.682546,0.22752 1.431047,0.18034 2.129031,0.35484 5.604332,1.40108 9.356134,1.06452 15.612903,1.06452 3.985743,0 8.699309,0.45276 12.774189,0 5.94424,-0.66048 -1.75316,0.0626 4.25807,-1.06452 2.83786,-0.5321 5.47121,-0.55143 8.16129,-1.7742 2.42936,-1.10425 7.22368,-3.70586 8.51613,-6.03225 0.43746,-0.78743 0.63316,-1.69307 1.06451,-2.48387 0.28319,-0.51919 0.82433,-0.87893 1.06452,-1.41936 0.24494,-0.55113 0.14307,-1.20948 0.35483,-1.77419 0.14975,-0.39931 0.60625,-0.65079 0.70968,-1.06452 0.28687,-1.14748 -0.14671,-2.37472 0,-3.54839 0.0464,-0.37114 0.30845,-0.69337 0.35484,-1.06451 0.18923,-1.51386 0.13845,-3.09821 0.35484,-4.6129 0.52262,-3.65835 1.00718,-7.92113 -0.70968,-11.35484 -0.53414,-1.06828 -1.41332,-1.58923 -2.12903,-2.48388 -0.53282,-0.66602 -0.88653,-1.463 -1.41936,-2.12903 -2.55234,-3.19043 0.89846,1.2533 -1.41935,-1.06451 -0.41818,-0.41818 -0.61549,-1.03448 -1.06452,-1.41936 -1.00404,-0.86061 -2.39239,-1.13197 -3.54838,-1.77419 -2.37588,-1.31993 -4.7921,-3.14337 -7.45162,-3.90323 -2.06989,-0.5914 -0.19713,0.39427 -1.77419,0 -3.16394,-0.79098 -6.64968,-1.012 -9.93548,-0.35484 z"
+       id="path284" />
+    <rect
+       style="fill:#501616;stroke-width:0.264583"
+       id="rect496"
+       width="20.580647"
+       height="58.548389"
+       x="84.096771"
+       y="82.322586" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="M 70.967741,152.22581 H 131.29032 L 90.483869,121 Z"
+       id="path552" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="m 103.6129,83.032258 c 2.04732,0.387614 3.15111,-0.556035 4.61291,-1.774196 0.3855,-0.321254 0.62584,-0.820811 1.06451,-1.064514 0.0859,-0.04773 2.271,-0.638736 2.83871,-1.064516 1.73341,-1.300062 2.53744,-3.374327 3.90323,-4.967743 1.23279,-1.438264 2.34127,-2.706058 3.54838,-4.258064 0.46592,-0.599032 1.07439,-2.493737 1.41936,-2.838709 0.5912,-0.591195 1.29488,-0.580565 1.77419,-1.419355 0.99167,-1.735423 1.38547,-3.674983 2.48387,-5.32258"
+       id="path617" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="m 85.516129,81.967741 c -2.209353,-2.107295 -4.771901,-4.023056 -6.741935,-6.387097 -1.601732,-1.922079 -2.925353,-4.175951 -4.612905,-6.032257 -1.237715,-1.36149 -2.4897,-2.725287 -3.903226,-3.903226 -0.203178,-0.169317 -0.562969,-0.134778 -0.709676,-0.35484 -0.13122,-0.196829 0.05737,-0.480182 0,-0.709676 -0.181432,-0.725731 -0.447016,-1.428597 -0.709678,-2.129033 -0.215728,-0.575273 -0.709679,-0.846619 -0.709679,-1.419355"
+       id="path619" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="m 92.612902,82.322579 c 0,1.892475 0,-3.784947 0,-5.677419 0,-4.165398 0.615143,-6.97894 1.419355,-10.999999 0.197736,-0.988684 0.797787,-1.328843 1.064516,-2.129033 0.140002,-0.420007 0.862071,-1.571749 1.064517,-1.774192 0.08364,-0.08364 0.256424,0.06561 0.354838,0 0.109413,-0.07294 1.57634,-1.774196 1.064517,-1.774196 -0.334545,0 -0.47312,0.47312 -0.709679,0.709679"
+       id="path621" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="m 99.709675,83.741934 c 0.452395,-3.619183 0.543545,-5.072354 1.774195,-9.225807 0.61776,-2.084948 1.85902,-3.949422 2.48387,-6.032256 0.13595,-0.453165 -0.14961,-0.970516 0,-1.419355 0.13486,-0.40458 0.51896,-0.683077 0.70968,-1.064517"
+       id="path623" />
+    <path
+       style="fill:#501616;stroke-width:0.264583"
+       d="m 89.419355,83.032258 c 0,-0.5914 0.155607,-1.203635 0,-1.774196 C 88.576032,79.57142 88.081791,78.833847 87.64516,76.999998 86.513582,72.24737 85.786398,67.304271 83.741934,62.80645 82.805314,60.745885 80.812433,59.786157 79.838708,57.83871"
+       id="path625" />
+  </g>
+</svg>

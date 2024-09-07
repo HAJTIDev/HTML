@@ -1,0 +1,51 @@
+#contener{
+ margin: auto;
+ width: 1500px;
+ height: 849px;
+}
+#banner{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #009999;
+    color: white;  
+}
+.sekcje{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#009999 ;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+}
+.panel1{
+    background-color: #669999;
+    float: left;
+    width: 30%;
+    height: 600px;
+}
+#panel2{
+    float: left;
+    text-align: center;
+    background-color: #99CCCC;
+    width: 40%;
+    height: 600px;
+    
+}
+#footer{
+    background-color: #009999;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+#button{
+    margin: 10px;
+    background-color: green;
+    color: white;
+
+}
+table,td{
+    text-align: center;
+    border: 1px  green solid;
+}

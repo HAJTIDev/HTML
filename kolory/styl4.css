@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(162, 117, 87);
+    float: left;
+}
+#menu{
+    background-color: rgb(162, 117, 87);
+    width: 80%;
+    height: 100px;
+    text-align: right;
+    float: left;
+}
+#banner{
+    height: 20%;
+    background-color: rgb(74, 45, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+#left{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color:  rgb(162, 117, 87);
+    color: white;
+}
+#right{
+    float: left;
+    width: 50%;
+    height: 500px; 
+    background-color:  rgb(162, 117, 87);
+    color: white;
+}
+footer{
+    background-color: rgb(74, 45, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+h1{
+    letter-spacing: 10px;
+}
+a{
+    background-color: rgb(162,117,87);
+    padding: 20px;
+    margin: 10px;
+    font-size: 150%;
+    line-height: 100px;
+    border: 1px solid rgb(65,98,85);
+}

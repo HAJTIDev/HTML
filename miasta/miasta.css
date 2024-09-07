@@ -1,0 +1,41 @@
+body{
+    background-color: #FFCC66;
+}
+#contener{
+width: 90%;
+height: 90%;
+margin: auto;
+}
+.pion{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 2%;
+    float: left;
+}
+.grafika{
+    margin-top: 5%;
+    text-align: center;
+    border: double 2px #CC6633;
+}
+.miasto{
+    height: 30%;
+    background-color: #ffffcc;
+    margin-top: 1%;
+    padding-top: 2%;
+}
+.paragraf{
+    text-align: justify;
+    color: #330000;
+    font-size: 14px;
+    line-height: 1,5em;
+    margin: 4%;
+}
+.reszta{
+    text-align: center;
+    color: #CC3333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 280px;
+    height: 130px;
+}

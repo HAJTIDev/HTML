@@ -1,0 +1,47 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner1 {
+  background-color: #29434e;
+  color: white;
+  text-align: center;
+  width: 70%;
+  height: 70px;
+}
+#banner2 {
+  background-color: #29434e;
+  width: 30%;
+  height: 70px;
+  color: white;
+}
+#banner1,
+#banner2 {
+  float: left;
+}
+#polecane,
+#fantastyczne {
+  background-color: #b0bec5;
+  height: 320px;
+  overflow: scroll;
+  clear: both;
+}
+.skrypt {
+  padding: 5px;
+  width: 226px;
+  height: 280px;
+  float: left;
+}
+h3 {
+  background-color: #546e7a;
+  color: white;
+  margin: 0;
+}
+h4 {
+  text-align: center;
+  margin: 0;
+}
+footer {
+  clear: both;
+  background-color: #29434e;
+  color: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="styl.css">
+    <link rel="icon" href="icon.png">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div id="contener" style="text-align: center">
+        <div class="linker">Panel Administracyjny</div>
+        <div class="linker"><a href="adminwiosna.html">Wyloguj</a></div>
+        <table>
+            <tr>
+                <td><input type="number" placeholder="cena jajka" id="cen1"></td>
+                <td><input type="number" placeholder="cena koszyczka" id="cen2"></td>
+                <td><input type="number" placeholder="cena bazi" id="cen3"></td>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="cena tulipana" id="cen4"></td>
+                <td><input type="number" placeholder="cena króliczka" id="cen5"></td>
+                <td><input type="number" placeholder="cena baranka" id="cen6"></td>
+            </tr>
+        </table>
+        <div id="check"></div>
+        <button onclick="cena()">Aktualizuj</button>
+    </div>
+
+    <script>
+        function cena(){
+            let cen1 = document.getElementById("cen1").value;
+            localStorage.setItem("cen1", cen1);
+            let cen2 = document.getElementById("cen2").value;
+            localStorage.setItem("cen2", cen2);
+            let cen3 = document.getElementById("cen3").value;
+            localStorage.setItem("cen3", cen3);
+            let cen4 = document.getElementById("cen2").value;
+            localStorage.setItem("cen4", cen4);
+            let cen5 = document.getElementById("cen5").value;
+            localStorage.setItem("cen5", cen5);
+            let cen6 = document.getElementById("cen6").value;
+            localStorage.setItem("cen6", cen6);
+            document.getElementById("check").innerHTML = (cen1+cen2+cen3+cen4+cen5+cen6)+"Pobranno";
+        }
+    </script>
+</body>
+</html>
